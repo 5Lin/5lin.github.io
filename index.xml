@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lin&#39;s Blog || MuMu&#39;s Blog</title>
-    <link>https://l50.top/</link>
+    <link>https://5Lin.github.io/</link>
     <description>Recent content on Lin&#39;s Blog || MuMu&#39;s Blog</description>
     <image>
       <title>Lin&#39;s Blog || MuMu&#39;s Blog</title>
-      <url>https://l50.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://l50.top/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://5Lin.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://5Lin.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Feb 2023 00:00:55 +0800</lastBuildDate><atom:link href="https://l50.top/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Feb 2023 00:00:55 +0800</lastBuildDate><atom:link href="https://5Lin.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C 3</title>
-      <link>https://l50.top/posts/c-3/</link>
+      <link>https://5Lin.github.io/posts/c-3/</link>
       <pubDate>Mon, 27 Feb 2023 00:00:55 +0800</pubDate>
       
-      <guid>https://l50.top/posts/c-3/</guid>
+      <guid>https://5Lin.github.io/posts/c-3/</guid>
       <description>C语言高级特性 前面我们了解了C语言的相关基础内容，我们来看看C语言的高级部分。这一章的学习难道会比较大，尤其是指针板块，因为需要理解计算机内存模型，所以说是很多初学者的噩梦。
 函数 其实函数我们在一开始就在使用了：
 int main() { //这是定义函数 ... } 我们程序的入口点就是main函数，我们只需要将我们的程序代码编写到主函数中就可以运行了，不够这个函数只是由我们来定义，而不是我们自己来调用。当然，除了主函数之外，我们一直在使用的printf也是一个函数，不过这个函数是标准库中已经实现好了的，现在是我们在调用这个函数：
@@ -36,10 +36,10 @@ printf(&amp;#34;Hello World!&amp;#34;); //直接通过 函数名称(参数...) �
     
     <item>
       <title>Java的jdk环境变量手动配置</title>
-      <link>https://l50.top/posts/java%E7%9A%84jdk%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE/</link>
+      <link>https://5Lin.github.io/posts/java%E7%9A%84jdk%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Sun, 26 Feb 2023 23:41:41 +0800</pubDate>
       
-      <guid>https://l50.top/posts/java%E7%9A%84jdk%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE/</guid>
+      <guid>https://5Lin.github.io/posts/java%E7%9A%84jdk%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE/</guid>
       <description>java的jdk环境变量手动配置（Windows11）
 参考：https://blog.csdn.net/JUSTLOVEBOY/article/details/119373550
 由于经常要配置环境变量那些，由于冲突或者不小心，可能会把原来配置的弄掉，又要重新配置，所以索性记录一下 第一次没有配置好不要着急，多试几次就好了，多配置几次你就会很熟悉了，正所谓万事开头难不用担心，仅仅配置了JDK，没有JRE！
@@ -53,19 +53,19 @@ printf(&amp;#34;Hello World!&amp;#34;); //直接通过 函数名称(参数...) �
     
     <item>
       <title>Hello,world</title>
-      <link>https://l50.top/posts/helloworld/</link>
+      <link>https://5Lin.github.io/posts/helloworld/</link>
       <pubDate>Sun, 26 Feb 2023 23:00:58 +0800</pubDate>
       
-      <guid>https://l50.top/posts/helloworld/</guid>
+      <guid>https://5Lin.github.io/posts/helloworld/</guid>
       <description>Hello,world!</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://l50.top/about/</link>
+      <link>https://5Lin.github.io/about/</link>
       <pubDate>Sun, 26 Feb 2023 23:00:40 +0800</pubDate>
       
-      <guid>https://l50.top/about/</guid>
+      <guid>https://5Lin.github.io/about/</guid>
       <description>This is a testing web page.
 这是一个测试页面，还没想好要写什么。</description>
     </item>
