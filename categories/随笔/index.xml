@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Lin&#39;s Blog | MuMu&#39;s Blog</title>
-    <link>https://5Lin.github.io/</link>
-    <description>Recent content on Lin&#39;s Blog | MuMu&#39;s Blog</description>
+    <title>随笔 on Lin&#39;s Blog | MuMu&#39;s Blog</title>
+    <link>https://5Lin.github.io/categories/%E9%9A%8F%E7%AC%94/</link>
+    <description>Recent content in 随笔 on Lin&#39;s Blog | MuMu&#39;s Blog</description>
     <image>
       <title>Lin&#39;s Blog | MuMu&#39;s Blog</title>
       <url>https://5Lin.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Feb 2023 00:00:55 +0800</lastBuildDate><atom:link href="https://5Lin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Feb 2023 00:00:55 +0800</lastBuildDate><atom:link href="https://5Lin.github.io/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C 3</title>
       <link>https://5Lin.github.io/posts/c-3/</link>
@@ -38,18 +38,6 @@
       <guid>https://5Lin.github.io/posts/helloworld/</guid>
       <description>Hello,world!</description>
     </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://5Lin.github.io/about/</link>
-      <pubDate>Sun, 26 Feb 2023 23:00:40 +0800</pubDate>
-      
-      <guid>https://5Lin.github.io/about/</guid>
-      <description>This is a testing web page.
-这是一个测试页面，还没想好要写什么。</description>
-    </item>
-    
-    
     
   </channel>
 </rss>
