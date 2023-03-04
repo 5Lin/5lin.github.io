@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://5Lin.github.io/sitemap.xml
+Sitemap: http://5Lin.github.io/sitemap.xml
