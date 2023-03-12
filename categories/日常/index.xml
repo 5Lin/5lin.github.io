@@ -11,7 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Mar 2023 23:59:53 +0800</lastBuildDate><atom:link href="https://blog.l50.top/categories/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 22:04:24 +0800</lastBuildDate><atom:link href="https://blog.l50.top/categories/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用acme.sh申请并自动续期SSL证书</title>
+      <link>https://blog.l50.top/posts/%E4%BD%BF%E7%94%A8acme.sh%E7%94%B3%E8%AF%B7%E5%B9%B6%E8%87%AA%E5%8A%A8%E7%BB%AD%E6%9C%9Fssl%E8%AF%81%E4%B9%A6/</link>
+      <pubDate>Sun, 12 Mar 2023 22:04:24 +0800</pubDate>
+      
+      <guid>https://blog.l50.top/posts/%E4%BD%BF%E7%94%A8acme.sh%E7%94%B3%E8%AF%B7%E5%B9%B6%E8%87%AA%E5%8A%A8%E7%BB%AD%E6%9C%9Fssl%E8%AF%81%E4%B9%A6/</guid>
+      <description>一）ACME安装 curl https://get.acme.sh | sh 安装程序会自动做以下操作：
+自动把 acme.sh 安装到你的 home 的.acme.sh目录下，即~/.acme.sh/ 自动创建一个 bash 的 alias, 方便你的使用: alias acme.sh=~/.acme.sh/acme.sh 自动为你创建 cronjob, 每天 0:00 点自动检测所有的证书, 如果快过期了, 需要更新, 则会自动更新证书. （二）更改默认证书机构 acme.sh --set-default-ca --server letsencrypt acme被ZeroSSL收购，其默认的证书方式为ZeroSSL，但此证书生成时会携带邮箱，因此更换为letsencrypt。
+当然，也可以在生成证书时加一个--server参数来决定生成什么证书
+--server letsencrypt （三）生成证书 使用acme.sh --issue命令生成证书，但生成证书的同时会进行域名的所有权的验证。 acme.sh 有两种方式验证：http 和 dns 验证。
+注意：如果需要生成泛域名（*.a.com）的证书，不能使用HTTP认证域名，需要改用DNS认证的方式
+DNS 验证方式（推荐,手动也可，但是作者不想手动.jpg） 需要在域名上添加一条 txt 解析记录, 验证域名所有权
+方式1：手动添加记录 a. 生成txt解析内容
+acme.sh --issue --dns -d mydomain.com \ --yes-I-know-dns-manual-mode-enough-go-ahead-please 以上mydomain.com只是测试域名，如果多个域名，则需多次使用-d配置，如-d www.a.com -d img.a.com
+b. 把txt解析添加到域名管理面板中
+c. 重新生成证书
+acme.sh --renew -d mydomain.</description>
+    </item>
+    
     <item>
       <title>JavaSE笔记（七）重制版</title>
       <link>https://blog.l50.top/posts/javase%E7%AC%94%E8%AE%B0%E4%B8%83%E9%87%8D%E5%88%B6%E7%89%88/</link>
